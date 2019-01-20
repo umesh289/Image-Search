@@ -1,12 +1,12 @@
 # Flickr Image-Search
 
-This application demostrates endless scrolling of images. 
+This application demostrates endless scrolling of images alogwith a search interface. 
 
 Description of main classes used:
 
 SearchActivityMain
-   Main activity which display the images and allows endless scrolling to show more images
-   It uses a recycler view with a grid layout manager to display these images.
+   Main activity which display the images with a search interface and allows endless scrolling to show more images
+   It uses a recycler view with a grid layout manager to display the images.
 EndlessRecyclerViewScrollListener: 
    Listens for scroll event in recylcer view and triggers loadNext of the pages from flickr API.
 PhotoAdapter
